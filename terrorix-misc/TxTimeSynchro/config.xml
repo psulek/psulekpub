@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <Servers>
+    <Server>time-a.nist.gov</Server>
+    <Server>time-b.nist.gov</Server>
+    <Server>time-a.timefreq.bldrdoc.gov</Server>
+    <Server>time-b.timefreq.bldrdoc.gov</Server>
+    <Server>time-c.timefreq.bldrdoc.gov</Server>
+    <Server>utcnist.colorado.edu</Server>
+    <Server>time.nist.gov</Server>
+    <Server>time-nw.nist.gov</Server>
+    <Server>nist1.datum.com</Server>
+    <Server>nist1.dc.certifiedtime.com</Server>
+    <Server>nist1.nyc.certifiedtime.com</Server>
+    <Server>nist1.sjc.certifiedtime.com</Server>
+  </Servers>
+  <StartPointDate>0</StartPointDate>
+  <RunAutoSynchro>false</RunAutoSynchro>
+  <SynchroEvery>1</SynchroEvery>
+  <SynchroMode>Minutes</SynchroMode>
+  <SynchroFailureRetry>true</SynchroFailureRetry>
+  <SynchroFailureRetryCount>20</SynchroFailureRetryCount>
+  <MakeLog>true</MakeLog>
+</Config>
